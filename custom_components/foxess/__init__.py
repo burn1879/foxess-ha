@@ -1,0 +1,1 @@
+"""The Foxess cloud integration."""
