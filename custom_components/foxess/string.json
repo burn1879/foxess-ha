@@ -1,0 +1,40 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "[%key:components::foxess::config::step::user::title%]",
+        "data": {
+          "name": "[%key:common::config_flow::data::name%]",
+          "username": "[%key:common::config_flow::data::username%]",
+          "password": "[%key:common::config_flow::data::password%]",
+          "devide_id": "[%key:common::config_flow::data::device_id%]"
+        }
+      }
+    },
+    "abort": {
+      "already_configured": "Device is already configured"
+    },
+    "error": {
+      "login_incorect": "[%key:components::livebox::config::error::login_inccorect%]",
+      "unknown": "[%key:common::config_flow::error::unknown%]"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "[%key:components::foxess::options::step::init::title%]",
+        "description": "[%key:components::foxess::options::step::init::description%]",
+        "data": {
+          "name": "[%key:common::config_flow::data::name%]",
+          "username": "[%key:common::config_flow::data::username%]",
+          "password": "[%key:common::config_flow::data::password%]",
+          "devide_id": "[%key:common::config_flow::data::device_id%]"
+        }
+      }
+    },
+    "error": {
+      "login_incorect": "[%key:components::livebox::config::error::login_inccorect%]",
+      "unknown": "[%key:common::config_flow::error::unknown%]"
+    }
+  }
+}

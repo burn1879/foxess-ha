@@ -1,0 +1,41 @@
+{
+  "config": {
+    "title": "FoxESS Cloud",
+    "step": {
+      "user": {
+        "title": "Vérification de votre compte.",
+        "data": {
+          "name": "Nom",
+          "username": "Utilisateur",
+          "password": "Mot de passe",
+          "device_id": "Identifiant de l'onduleur"
+        }
+      }
+    },
+    "abort": {
+      "already_configured": "Appareil déjà configuré"
+    },
+    "error": {
+      "login_incorect": "Utilisateur ou mot de passe incorrect.",
+      "unknown": "Erreur inconnue."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Modification de votre compte.",
+        "description": "Changer les informations de connexion",
+        "data": {
+          "name": "Nom",
+          "username": "Utilisateur",
+          "password": "Mot de passe",
+          "device_id": "Identifiant de l'onduleur"
+        }
+      }
+    },
+    "error": {
+      "login_incorect": "Utilisateur ou mot de passe incorrect.",
+      "unknown": "Erreur inconnue."
+    }
+  }
+}
